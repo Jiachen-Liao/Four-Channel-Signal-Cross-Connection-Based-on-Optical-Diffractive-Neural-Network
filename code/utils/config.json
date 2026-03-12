@@ -1,0 +1,23 @@
+{
+    "dist": 0.04,
+    "num_layers": 5,
+    "loss_name": "weighted_mse",
+    "optimizer": "adam",
+    "weight_decay": 0,
+    "device_type": "cuda",
+    "cuda_idx": 0,
+    "data_size": [1, 500, 500],
+    "pixel_size": 4e-6,
+    "lambda": 1550e-9,
+    "w0_input": 340e-6,
+    "w1_target": 200e-6,
+    "w2_target": 240e-6,
+    "w3_target": 280e-6,
+    "w4_target": 200e-6,
+    "batch_size_train": 8,
+    "batch_size_test": 8,
+    "epochs": 200,
+    "learning_rate": 0.0001,
+    "samples_per_epoch": 50,
+    "comment": "Input [1,2,3,4]. Case1 -> [4,1,2,3], Case2 -> [2,3,4,1]"
+}

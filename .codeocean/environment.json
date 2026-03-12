@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"base_image": "registry.codeocean.com/codeocean/pytorch:2.1.0-cuda11.8.0-mambaforge23.1.0-4-python3.10.12-ubuntu22.04",
+	"options": {},
+	"installers": {
+		"pip3": {
+			"packages": [
+				{
+					"name": "pillow",
+					"version": "11.0.0"
+				},
+				{
+					"name": "scikit-image",
+					"version": "0.24.0"
+				},
+				{
+					"name": "scipy",
+					"version": "1.14.1"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+# 忽略结果集文件夹
+code/results/
+
+# 忽略 PyCharm 的本地项目配置（避免路径冲突）
+.idea/
+
+# 忽略 Python 编译的缓存文件
+__pycache__/
+*.pyc
