@@ -1,6 +1,5 @@
-# Four-Channel Signal Cross-Connection Based on Optical Diffractive Neural Network (ODNN)
-This repository contains the PyTorch implementation of the **Four-Channel Signal Cross-Connection** using an **Optical Diffractive Neural Network (ODNN)**. 
-## 📂 Project Structure
+Four-Channel Signal Cross-Connection Based on Optical Diffractive Neural Network (ODNN)
+This repository contains the PyTorch implementation of the Four-Channel Signal Cross-Connection using an Optical Diffractive Neural Network (ODNN). 
 The repository is organized as follows:
 ODNN/
 ├── code/                   # 核心代码目录
