@@ -12,7 +12,4 @@ ODNN/
 │   ├── eval.py             # 模型验证/测试脚本
 │   └── config.json         # 超参数配置文件
 ├── environment/            # 环境依赖配置
-├── metadata/               # 项目元数据
-├── Guide.pdf               # 项目补充说明指南
-├── REPRODUCING.md          # 详细的复现步骤
 └── .gitignore              # Git 忽略文件配置
